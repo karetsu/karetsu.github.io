@@ -1,17 +1,22 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /* custom */
 html {
-  margin: 0;
+  margin: 0 !important;
+  height: 100%;
 }
+
 body {
   color: #eceff4;
   background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
   background-color: #d09693;
-  font-family: 'Fira Sans', sans-serif, 'Fira Mono';
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
 }
+
 footer {
   visibility: hidden !important;
 }
@@ -22,6 +27,15 @@ img.portrait {
 
 h1 {
   color: #964C7B;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  padding: 10px;
 }
 
 a {
@@ -34,4 +48,14 @@ a:hover {
 }
 a:focus {
   color: #EB64B9;
+}
+
+.child {
+  width: 100% !important;
+  clear: both;
+}
+
+.fa, .fab, .fal, .far, .fas {
+  font-size: 32px;
+  margin: 0 10px;
 }
